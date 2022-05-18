@@ -22,7 +22,7 @@ A brief explanation on the basic workflow of the application.
 
 
  ```shell
-   npm install -g truffle
+  npm install -g truffle
  ```
    
 3.Install **Ganache GUI** from [here](https://trufflesuite.com/ganache/).
