@@ -14,6 +14,16 @@ A brief explanation on the basic workflow of the application.
 
 ---
 
+## Steps to start server
+
+1.Get copy of this repository in your system
+
+2.Open command prompt on the parent directory and run
+    ```shell
+        npm install -g ganache-cli
+        npm install -g truffle
+      ```
+
 ## To-Do List
 
 Possible features to add/ ameliorate within the app. 
