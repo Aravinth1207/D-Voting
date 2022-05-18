@@ -72,7 +72,7 @@ export default class AddCandidate extends Component {
         this.state.candidates.push({
           id: candidate.candidateId,
           header: candidate.header,
-          slogan: candidate.slogan,
+          slogan: candidate.party,
         });
       }
 
