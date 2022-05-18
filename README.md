@@ -34,6 +34,7 @@ A brief explanation on the basic workflow of the application.
 ## Starting development server
 
 1.Launch Ganache GUI 
+
 2.Get command prompt on the parent directory and run 
 
   ```shell
