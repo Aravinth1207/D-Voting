@@ -22,7 +22,7 @@ A brief explanation on the basic workflow of the application.
 
 
  ```shell
-    npm install -g truffle
+   npm install -g truffle
  ```
    
 3.Install **Ganache GUI** from [here](https://trufflesuite.com/ganache/).
@@ -33,8 +33,8 @@ A brief explanation on the basic workflow of the application.
   
 ## Starting development server
 
-1. Launch Ganache GUI 
-2. Get command prompt on the parent directory and run 
+1.Launch Ganache GUI 
+2.Get command prompt on the parent directory and run 
 
   ```shell
    truffle migrate
@@ -46,13 +46,13 @@ A brief explanation on the basic workflow of the application.
    npm install
    node deploy.js
   ```
-4. Get the Contract address on the output of the deploy.js and paste to Dapp/src/components/address.js
+4.Get the Contract address on the output of the deploy.js and paste to Dapp/src/components/address.js
    
 5.Open the Dapp folder on Code Editor to start the web app, on terminal run 
  
   ```shell
-  npm install
-  node start
+   npm install
+   node start
   ```
 ---
 
