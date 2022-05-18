@@ -18,10 +18,10 @@ A brief explanation on the basic workflow of the application.
 
 Possible features to add/ ameliorate within the app. 
  
-- () ** Telegraph Verification ** — adding dispatch/ phone verification (OTP,etc.) while registering for choosers. 
-- () ** Automated Verification ** — adding an automated verification ( rather than manually approving by the admin) for the registered druggies. This could be grounded on the custom cooperation dispatch, custom list of emails, or custom list of phone figures, etc. 
--() ** Report ** — option to induce a report at the end of an election. The report could contain a range of information including the number of people that were eligible to bounce, the number of people that shared in the election, a bar- map/ pie- map showing the election statistics, etc. 
-- () ** Workflow advancements ** — overall workflow advancements (eg. option to add campaigners within the election setup runner), with overall GUI advancements. 
-- () ** Multiple election case ** — capability to produce multiple election cases without having tore-deploy the smart contract.
+- [ ] **Email Verification** — adding email/phone verification (OTP, etc..) while registering for voters.
+- [ ] **Automated Verification** — adding an automated verification ( rather than manually approving by the admin) for the registered druggies. This could be grounded on the custom cooperation dispatch, custom list of emails, or custom list of phone figures, etc. 
+- [ ] **Report** — option to induce a report at the end of an election. The report could contain a range of information including the number of people that were eligible to bounce, the number of people that shared in the election, a bar- map/ pie- map showing the election statistics, etc. 
+- [ ] **Workflow advancements** — overall workflow advancements (eg. option to add campaigners within the election setup runner), with overall GUI advancements. 
+- [ ] **Multiple election case** — capability to produce multiple election cases without having tore-deploy the smart contract.
 
 ---
