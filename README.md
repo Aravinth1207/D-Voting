@@ -14,15 +14,48 @@ A brief explanation on the basic workflow of the application.
 
 ---
 
-## Steps to start server
+## Steps to get requirements
 
 1.Get copy of this repository in your system
 
 2.Open command prompt on the parent directory and run
+
+
+   ```shell
+   npm install -g truffle
+   ```
+   
+3.Install **Ganache GUI** from https://trufflesuite.com/ganache/
+
+4.Install **Metamask** Extensino on your browser
+
+  Download and install metamask from [here](https://metamask.io/download "Go to official metamask download page.").
+  
+## Starting development server
+
+1. Launch Ganache GUI 
+2. Get command prompt on the parent directory and run 
+
+   ```shell
+   truffle migrate
+   ```
+   
+3.Open the Deployment folder on Code Editor to deploy contract , on terminal run
+
+  ```shell
+  npm install
+  node deploy.js
+  ```
+4. Get the Contract address on the output of the deploy.js and paste to Dapp/src/components/address.js
+   
+5.Open the Dapp folder on Code Editor to start the web app, on terminal run 
+ 
     ```shell
-        npm install -g ganache-cli
-        npm install -g truffle
-      ```
+    npm install
+    npm start
+    ```
+    
+    
 
 ## To-Do List
 
