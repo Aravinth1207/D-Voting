@@ -15,17 +15,24 @@ const ElectionStatus = (props) => {
     justifyContent: "space-around",
     display: "flex",
   };
+  const electionStatusText = {
+    fontSize: "1.2em",
+    fontWeight: "bold",
+    backgroundColor: "green",
+    width: "50%",
+  }
   return (
     <div
       className="container-main"
-      style={{ borderTop: "1px solid", marginTop: "0px" }}
+      style={{ borderTop: "1px solid", marginTop: "0px", padding: "10px" }}
     >
       <h3>Election Status</h3>
-      <div style={electionStatus}>
-        <p>Started: {props.elStarted ? "True" : "False"}</p>
-        <p>Ended: {props.elEnded ? "True" : "False"}</p>
+      <div className="container-item" >
+        <div style={electionStatus}>
+          <p>Started: {props.elStarted ? "True" : "False"}</p>
+          <p>Ended: {props.elEnded ? "True" : "False"}</p>
+        </div>
       </div>
-      <div className="container-item" />
     </div>
   );
 };

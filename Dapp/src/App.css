@@ -113,6 +113,9 @@ code {
 .success {
   background-color: #ddffdd;
 }
+.button {
+  background-color: #fff;
+}
 
 center {
   display: flex;

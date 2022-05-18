@@ -8,8 +8,12 @@ const StartEnd = (props) => {
     margin: "7px",
     minWidth: "max-content",
     textAlign: "center",
-    width: "333px",
+    width: "100px",
     alignSelf: "center",
+    backgroundColor: '#44cee3',
+    borderRadius: "11px",
+    border: "none",
+    cursor: "pointer"
   };
   return (
     <div
@@ -41,7 +45,7 @@ const StartEnd = (props) => {
                   page.
                 </p>
               </div>
-              <div className="container-item">
+              <div className="container-item button">
                 <button type="submit" style={btn}>
                   Start Election {props.elEnded ? "Again" : null}
                 </button>
