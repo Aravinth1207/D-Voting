@@ -50,12 +50,11 @@ A brief explanation on the basic workflow of the application.
    
 5.Open the Dapp folder on Code Editor to start the web app, on terminal run 
  
-    ```shell
-    npm install
-    npm start
-    ```
-    
-    
+  ```shell
+  npm install
+  node start
+  ```
+---
 
 ## To-Do List
 
