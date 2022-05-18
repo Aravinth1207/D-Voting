@@ -27,7 +27,7 @@ A brief explanation on the basic workflow of the application.
    
 3.Install **Ganache GUI** from [here](https://trufflesuite.com/ganache/).
 
-4.Install **Metamask** Extensino on your browser
+4.Install **Metamask** Extention on your browser
 
   Download and install metamask from [here](https://metamask.io/download "Go to official metamask download page.").
   
