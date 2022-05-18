@@ -99,7 +99,6 @@ code {
 .attention,
 .alert,
 .success {
-  border: 1px solid black;
   margin-top: 11px;
   margin-bottom: 11px px;
 }
