@@ -1,0 +1,71 @@
+h2,
+h3 {
+  padding: 11px 1px;
+  margin: auto;
+  text-align: left;
+}
+small {
+  color: grey;
+  font-size: medium;
+}
+p {
+  margin: 1px;
+  padding: 3px;
+}
+.contact {
+  color: rgb(102, 124, 236);
+}
+.slogan {
+  color: #0250f7;
+  font-size: 1.5em;
+  margin: 7px 0px;
+}
+.discription {
+  padding: 11px;
+  padding-left: 1px;
+  text-align: justify;
+  max-height: 111px;
+  overflow: auto;
+  line-height: 1.5em;
+}
+
+.candidate-info {
+  transition: ease all 0.5s;
+  width: 86%;
+  float: left;
+  margin-left: 1%;
+  padding: 17px;
+  background-color: #f5f8ff;
+  border-radius: 11px;
+}
+.vote-btn-container {
+  transition: ease all 0.5s;
+  height: 100%;
+  width: 17%;
+  float: right;
+  align-items: center;
+  justify-content: center;
+  padding: 17px;
+}
+.vote-bth {
+  width: 100%;
+  height: 55px;
+  font-size: 157%;
+  background-color: #4bb543;
+  border-radius: 11px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+@media all and (max-width: 900px) {
+  .candidate-info,
+  .vote-btn-container {
+    width: 100%;
+    height: 100%;
+  }
+}
+.container-item-attention {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
