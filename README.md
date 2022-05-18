@@ -21,11 +21,11 @@ A brief explanation on the basic workflow of the application.
 2.Open command prompt on the parent directory and run
 
 
-   ```shell
+  ```shell
    npm install -g truffle
-   ```
+  ```
    
-3.Install **Ganache GUI** from https://trufflesuite.com/ganache/
+3.Install **Ganache GUI** from [here](https://trufflesuite.com/ganache/).
 
 4.Install **Metamask** Extensino on your browser
 
